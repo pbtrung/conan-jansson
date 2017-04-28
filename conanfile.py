@@ -6,6 +6,7 @@ from conans import CMake
 
 
 class JanssonConan(ConanFile):
+    description = "C library for encoding, decoding and manipulating JSON data"
     name = "jansson"
     version = "2.10"
     ZIP_FOLDER_NAME = "jansson-%s" % version
